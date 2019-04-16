@@ -140,10 +140,10 @@ public class AsymmetricSignatureImplTest extends TestCase {
         testSelfPrecompSignVerify(KeyPair.ALG_RSA_CRT, RSA_ETALON_KEY_SIZE, Signature.ALG_RSA_SHA_256_PKCS1, MessageDigest.ALG_SHA_256);
     }
    
-    public void testSelfPrecompSignVerifyRSASHA256_PSS() {
-        System.out.println("self test precomputed sign/verify rsa SHA-256 PSS");
-        testSelfPrecompSignVerify(KeyPair.ALG_RSA_CRT, RSA_ETALON_KEY_SIZE, Signature.ALG_RSA_SHA_256_PKCS1_PSS, MessageDigest.ALG_SHA_256);
-    }
+//    public void testSelfPrecompSignVerifyRSASHA256_PSS() {
+//        System.out.println("self test precomputed sign/verify rsa SHA-256 PSS");
+//        testSelfPrecompSignVerify(KeyPair.ALG_RSA_CRT, RSA_ETALON_KEY_SIZE, Signature.ALG_RSA_SHA_256_PKCS1_PSS, MessageDigest.ALG_SHA_256);
+//    }
     /**
      * SelfTest of ECDSA sign/verify method, of class AsymmetricSignatureImpl.
      */
